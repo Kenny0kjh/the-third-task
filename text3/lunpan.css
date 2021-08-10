@@ -1,0 +1,50 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.turn-box {
+    width: 300px;
+    height: 300px;
+    margin: 100px auto;
+    position: relative;
+}
+
+.canvas {
+    position: absolute;
+}
+
+.mycanvas {
+    background-color: white;
+    border-radius: 100%;
+    transform: transform 6s;
+    transition: transform 6s;
+    transform-origin: 50% 50%;
+}
+
+.mycanvas1,
+.mycanvas3 {
+    left: 50px;
+    top: 50px;
+    z-index: 30;
+}
+
+.mycanvas2 {
+    left: 75;
+    top: 75;
+    z-index: 20;
+}
+
+.play {
+    width: 60px;
+    height: 60px;
+    left: 120px;
+    top: 120px;
+    border-radius: 100%;
+    position: absolute;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    outline: none;
+    z-index: 40;
+}
